@@ -22,3 +22,104 @@
 </div>
 
 </div>
+css
+
+/* NEW CSS */
+.sbo_section {
+	width: 100%;
+}
+.prd1:first-child {
+	margin: 0px 0 0 0px;
+}
+.prd1 {
+	float: left;
+	clear: right;
+	margin: -150px 0 0 0px;
+}
+.prd2 {
+	float: right;
+	clear: left;
+	margin: -130px 0px 0 0;
+}
+.prd_img {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	z-index: 1;
+	width: 410px;
+}
+.prd_img img{
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+.prd_cnt_box1 {
+	background-color: #fce8e3;
+	width: 410px;
+	height: 110px;
+	padding-top: 110px;
+	margin-top: -90px;
+    box-sizing: content-box!important;
+}
+.prd_cnt_box1 h1{
+	width: 100%;
+	text-transform: uppercase!important;
+	color: #474644;
+	text-align: center;
+	line-height: 25px;
+	font-size: 27px!important;
+	font-weight: normal;
+	letter-spacing: 1px!important;
+	margin: 10px 0;
+}
+.prd_cnt_box1 p {
+	width: 100%;
+}
+.prd_cnt_box1 p a{
+	text-transform: uppercase;
+	color: #474644!important;
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 2px;
+	display: block;
+	width: 90px;
+	border-bottom: 1px solid;
+	text-decoration: none!important;
+	margin: 0 auto;
+	padding-bottom: 3px;
+}
+.prd_cnt_box1 p a:hover{
+	border: none;
+	transition: all ease-in-out .2s;
+}
+@media only screen and (max-width: 480px) {
+.prd1:first-child {
+	margin: 0;
+}
+.prd1 {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+.prd2 {
+	float: left;
+	width: 100%;
+	margin: 0;
+}
+.prd_img {
+	width: 100%;
+}
+.prd_img img {
+	width: 100%;
+}
+.prd_cnt_box1 {
+	background-color: #fce8e3;
+	width: 100%;
+	padding: 10px 0;
+	margin: 10px 0;
+	height: auto;
+}
+.prd_cnt_box1 p {
+	width: 100%;
+}
+}
